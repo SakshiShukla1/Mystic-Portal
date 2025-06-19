@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background:radial-gradient(circle at center,#0a0a0a 0%, #000 80%);
+  background-size: 400% 400%;
+
+  font-family: 'Courier New', Courier, monospace;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome-screen {
+  text-align: center;
+  animation: flicker 2s infinite alternate;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ff004f;
+  text-shadow: 0 0 10px #d80e4e;
+}
+
+p {
+  font-size: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow:0 0 5px #ff004f;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 14px 30px;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow:0 0 8px #0d0d0d ;
+  color: #0d0d0d;
+  background: #ff004f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 20px #999;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: #e60047;
+  box-shadow: 0 0 20px #ff004f;
+  transform: scale(1.1);
+}
+
+/* Optional flicker animation */
+@keyframes flicker {
+  0% { opacity: 2; }
+  45% { opacity: 0.8; }
+  55% { opacity: 0.6; }
+  70% { opacity: 1; }
+  100% { opacity: 0.9; }
+}

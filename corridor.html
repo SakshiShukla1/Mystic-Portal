@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Corridor of Choices</title>
+  <link rel="stylesheet" href="corridor.css">
+</head>
+<body>
+  <h1 class="heading">Choose your fate...</h1>
+  <div class="card-container">
+    <div class="card" onclick="goTo('stories')">
+      <p> Strange Stories</p>
+    </div>
+    <div class="card" onclick="goTo('codes')">
+      <p> Hidden Codes</p>
+    </div>
+    <div class="card" onclick="goTo('games')">
+      <p> Twisted Games</p>
+    </div>
+    <div class="card" onclick="goTo('gallery')">
+      <p> Shadow Gallery</p>
+    </div>
+  </div>
+  <script>
+    function goTo(section) {
+      alert("Portal to: " + section);
+      // window.location.href = section + ".html";
+    }
+  </script>
+</body>
+</html>
