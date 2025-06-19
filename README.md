@@ -7,3 +7,11 @@ It features smooth typing animation , glowing visuals ,  and a transition to a s
 - CSS
 
 ## Files
+- new.html
+- stylesheet.css
+- corridor.html
+- corridor.css
+
+## Purpose
+This project is part of my frontend development journey.
+It helped me explore layout design , css animations , page linking , and creative theing - all without Javascript.
