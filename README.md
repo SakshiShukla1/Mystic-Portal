@@ -14,4 +14,4 @@ It features smooth typing animation , glowing visuals ,  and a transition to a s
 
 ## Purpose
 This project is part of my frontend development journey.
-It helped me explore layout design , css animations , page linking , and creative theing - all without Javascript.
+It helped me explore layout design , css animations , page linking , and creative theming - all without Javascript.
